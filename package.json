@@ -1,0 +1,16 @@
+{
+  "name": "cloud-sql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jarmo Isotalo <jarmo@isotalo.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "9.3.3",
+    "pg": "7.4.3"
+  }
+}
