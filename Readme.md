@@ -4,7 +4,7 @@ Follow https://cloud.google.com/sql/docs/postgres/sql-proxy for generating crede
 
 Add the credentials file as a secret to now:
 ```bash
-now secrets add cloudproxy1 "$(cat creds.json | base64)"
+now secrets add cloudproxy "$(cat creds.json | base64)"
 ```
 
 
